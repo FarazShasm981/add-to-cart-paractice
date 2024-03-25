@@ -9,7 +9,7 @@ function signup() {
         localStorage.setItem('name', signUpName.value);
         localStorage.setItem('mail', signUpMail.value);
         localStorage.setItem('password', signUpPass.value);
-        window.location.href = 'login.html';
+        window.location.href = 'index1.html';
     } else {
         alert("Please Fill Out All Fields")
     }
@@ -25,7 +25,7 @@ function login() {
     var cde = localStorage.getItem('password');
     if (loginEmail.value == abc && loginPass.value == cde) {
         alert('Welcome')
-        window.location.href = 'dashboard.html'
+        window.location.href = 'index2.html'
     } else {
         alert('Please Enter Valid Email/Password')
     }
