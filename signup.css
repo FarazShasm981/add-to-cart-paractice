@@ -1,0 +1,64 @@
+/* ---------------SIGNUP--------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    justify-content: center;
+    background: linear-gradient(#345673, #193752);
+
+}
+
+.container {
+    width: 420px;
+    background: rgb(16, 34, 45);
+    padding: 30px 20px;
+    border-radius: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    box-shadow: 0 0 70px rgb(16, 34, 45);
+}
+
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sub-container input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    border-radius: 50px;
+    background-color:cyan;
+    box-shadow: 0 0 5px cyan;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+button:hover{
+    scale: 1.02;
+    box-shadow: 0 0 50px cyan;
+}
+
+/* ---------------SIGNUP--------------------- */
